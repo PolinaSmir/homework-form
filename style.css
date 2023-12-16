@@ -50,6 +50,7 @@ textarea {
 }
 
 textarea {
+  height: 100px;
   resize: none;
 }
 
@@ -60,6 +61,7 @@ button {
   border: none;
   background-color: rgb(68, 184, 68);
   color: white;
+  cursor: pointer;
 }
 
 button:hover {
