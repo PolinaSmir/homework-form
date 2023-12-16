@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Shantell Sans", cursive;
+}
+h1 {
+  text-align: center;
+}
+
+form {
+  display: block;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 10px;
+}
+
+legend {
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+fieldset {
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px 0px;
+}
+
+select,
+textarea {
+  width: 95%;
+  border-radius: 5px;
+  margin-left: 2.5%;
+  padding: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(68, 184, 68);
+  color: white;
+}
+
+button:hover {
+  background-color: green;
+}
